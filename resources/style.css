@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: #684BB1;
+}
+main{
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: #684BB1;
+}
+header{
+    padding: 38.2px 55.31px 60px 40px;
+}
+.main-logo{
+    width: 120px;
+    padding-bottom: 55px;
+}
+.img{
+   max-width: 296px;
+}
+.container{
+    padding: 0px 35px 64px;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 16px;
+    color: #ffffff;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 24px;
+    color: #ffffff
+}
+button{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #684BB1;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+}
+footer{
+    display: flex;
+    gap: 10.86px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.logo{
+    width: 27.14px;
+    height: 28px;
+    filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+}
+
+@media only screen and (min-width: 375px){
+    main{
+        display: flex;
+    }
+    main{
+        background-image: url(./images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: #684BB1;
+    }
+    header{
+        padding: 64px 59px 108px 80px;
+    }
+    .main-logo{
+        width: 200px;
+        padding-bottom: 74px;
+    }
+    .img{
+       max-width: 696px;
+    }
+    .content{
+        padding: 232px 85px 0px 0px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0px;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 60px;
+        padding-bottom: 24px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 27px;
+        padding-bottom: 24px;
+    }
+    button{
+        font-size: 18px;
+        line-height: 27px;
+        height: 56px;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+        border-radius: 28px;
+        margin-bottom: 183px;
+        background-color: 0;
+    }
+    button:hover{
+        background-color: #E880E8;
+        color: #FFFFFF;
+    }
+    footer{
+        justify-content: flex-end;
+        gap: 23px
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .logo:hover{
+        filter: invert(42%) sepia(98%) saturate(687%) hue-rotate(286deg) brightness(101%) contrast(107%);;
+    }
+}
